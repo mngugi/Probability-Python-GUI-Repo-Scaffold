@@ -16,3 +16,19 @@ probability-python-gui/
 │   └── viz.py               # plotting helpers (matplotlib)
 └── examples/
     └── venn_example.png     # generated example output
+
+### Getting Started
+- Clone the repository:
+  
+```bash
+git clone https://github.com/yourusername/probability-python-gui.git
+cd probability-python-gui
+
+```
+- Install dependencies:
+  
+  ```ngix
+pip install -r requirements.txt
+
+  ```
+
