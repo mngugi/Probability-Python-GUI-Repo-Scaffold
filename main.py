@@ -2,27 +2,16 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 1,
-   "id": "d1246502-65f7-4d5f-b98c-db1d2a8e8dfa",
+   "execution_count": null,
+   "id": "2113a858-1092-4db8-b036-ff39d93163a2",
    "metadata": {},
    "outputs": [],
    "source": [
-    "def conditional_probability(p_a_and_b, p_a):\n",
-    "    if p_a == 0:\n",
-    "        return 0\n",
-    "    return p_a_and_b / p_a\n",
+    "from .gui import launch_gui\n",
     "\n",
-    "def joint_probability(p_a, p_b):\n",
-    "    return p_a * p_b\n"
+    "if __name__ == \"__main__\":\n",
+    "    launch_gui()\n"
    ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "f71d65e2-4346-4fe0-8d33-abd3f50edeed",
-   "metadata": {},
-   "outputs": [],
-   "source": []
   }
  ],
  "metadata": {

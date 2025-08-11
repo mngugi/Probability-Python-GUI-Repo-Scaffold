@@ -19,7 +19,13 @@
     }
    ],
    "source": [
-    "%run init.py\n"
+    "# probability_gui/__init__.py\n",
+    "# This makes Python treat the folder as a package.\n",
+    "\n",
+    "from .probability import *\n",
+    "from .gui import *\n",
+    "from .viz import *\n",
+    "from .main import *\n"
    ]
   },
   {
