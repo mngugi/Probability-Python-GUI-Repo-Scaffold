@@ -52,10 +52,15 @@
     }
    ],
    "source": [
-    "%run gui.py\n",
-    "%run init.py\n",
-    "%run main.py\n",
-    "%run probability.py\n"
+    "\n",
+    "\n",
+    "import matplotlib.pyplot as plt\n",
+    "from matplotlib_venn import venn2\n",
+    "\n",
+    "def plot_venn(set_a, set_b, label_a=\"A\", label_b=\"B\"):\n",
+    "    venn2([set_a, set_b], set_labels=(label_a, label_b))\n",
+    "    plt.show()\n",
+    "\n"
    ]
   },
   {
